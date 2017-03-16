@@ -1,10 +1,10 @@
 (?x)
 (?:
-\b(?<=https?://)(?!www\.paypal\.com/)\S{0,40}paypal(?!\S*\.com/)|
+\b(?<=https?://)(?!www\.paypal\.com/)\S{0,40}pay\S{0,2}al(?!\S*\.com/)|
 sitey.me|
 myfreesites\.net|
 /\S{0,3}outloo\S{0,2}k\S{1,3}\W|
-webmail\w{0,3}(?!/[0-9])|
+\b(?<=https?://)\S{0,40}webmail\w{0,3}(?!/[0-9])(?!\S{0,40}\.com/)|
 owaportal|
 outlook\W365|
 /office\S{0,3}365/|
@@ -50,4 +50,7 @@ is\.gd/|
 tiny\.cc/|
 \.joburg|
 \.top/
+/wp-admin/(?!\S{0,60}Campaign\S{0,2}\=)|
+/wp-includes/(?!\S{0,60}Campaign\S{0,2}\=)|
+/wp-content/(?!\S{0,60}Campaign\S{0,2}\=)(?!\S{0,60}\.pdf[<\"\t\r\n])(?!\S{0,60}\.jpg[<"\t\r\n])
 )
