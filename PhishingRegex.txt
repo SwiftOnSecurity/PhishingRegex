@@ -1,5 +1,8 @@
 (?x)
 (?:
+/googledoc/|
+limit\ (and\ suspend)?\ your\ account|
+informations\ on\ your\ account|
 \b(?<=https?://)(?!www\.paypal\.com/)\S{0,40}pay\S{0,2}al(?!\S*\.com/)|
 sitey.me|
 myfreesites\.net|
@@ -15,18 +18,18 @@ pay\Sal\S{0,2}com-|
 /helpdesk/|
 pay\Sa\S{0,2}login|
 /natwest/|
-/dropbox/|
+/dropbo?x/|
 \.invoice\.php|
-security-?error|
+security-?err|
 /newdropbox/|
-word must be installed|
+word\ must\ be\ installed|
 /www/amazon|
 simplefileupload|
 getn\.php\?id=|
- restricted if you fail to update|
-suspend your account|
-trying to access your account|
-multiple login attempt|
+restricted\ if\ you\ fail\ to\ update|
+suspend\ your\ account|
+trying\ to\ access\ your\ account|
+multiple\ login\ attempt|
 security-?warning|
 -(un)?b?locked|
 //helpdesk(?!\.)|
@@ -35,12 +38,14 @@ mailupdate|
 mailowa|
 -icloud|
 icloud-|
-contabo\.net|that you validate your account|
+contabo\.net|
+that\ you\ validate\ your\ account|
 \.xyz/|
-ownership validation has expired|
-urged to download|was blocked for violation|
+ownership\ validation\ has\ expired|
+urged\ to\ download|
+was\ blocked\ for\ violation|
 icloudcom|
-Your Apple ID was used to sign in to|
+Your\ Apple\ ID\ was\ used\ to\ sign\ in\ to|
 \w\.jar(?=\b)|
 /https?/www/|
 \.000webhost(app)?\.com|
