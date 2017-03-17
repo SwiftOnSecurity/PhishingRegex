@@ -1,7 +1,10 @@
 (?x)
 (?:
+chase\S{0,10}\.html"|
+update\ in\ our\ security|
+update\ your\ account\ information|
 \b(?<=https?://)(www\.)?icloud(?!\.com)|
-\Dappie\W|
+(?<![\x00\x41\x42\x43\x44\x45\x46\x47\x48\x49\x4A\x4B\x4C\x4D\x4E\x4F\x50\x51\x52\x53\x54\x55\x56\x57\x58\x59\x5A])appie\W|
 \b(?<=https?://)apple-?id-|
 www\S?[^\.]apple|
 /Dropfile/|
@@ -9,11 +12,11 @@ www\S?[^\.]apple|
 /googledocs?/|
 limit\ (and\ suspend)?\ your\ account|
 informations\ on\ your\ account|
-\b(?<=https?://)(?!www\.paypal\.com/)\S{0,40}pa?y\S{0,2}al(?!\S*\.com/)|
+\b(?<=https?://)(?!www\.paypal\.com/)\S{0,40}pay\S{0,2}al(?!\S*\.com/)|
 sitey.me|
 myfreesites\.net|
 /\S{0,3}outloo\S{0,2}k\S{1,3}\W|
-\b(?<=https?://)\S{0,40}webmail\w{0,3}(?!/[0-9])(?!\S{0,40}\.com/)|
+\b(?<=https?://webmail\.)\S{0,40}webmail\w{0,3}(?!/[0-9])(?!\S{0,40}\.com/)|
 owaportal|
 outlook\W365|
 /office\S{0,3}365/|
