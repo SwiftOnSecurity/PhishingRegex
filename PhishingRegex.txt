@@ -1,5 +1,8 @@
 (?x)
 (?:
+©\ 201\d Apple|
+Verify\ your\ ID\s|
+dear\ \w{3,8}(\ banking)?\ user|
 chase\S{0,10}\.html"|
 update\ in\ our\ security|
 update\ your\ account\ information|
