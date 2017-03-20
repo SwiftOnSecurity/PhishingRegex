@@ -57,7 +57,6 @@ contabo\.net
 \.xyz/
 ownership\ validation\ (has\ )?expired
 icloudcom
-Your\ Apple\ ID\ was\ used\ to\ sign\ in\ to
 \w\.jar(?=\b)
 /https?/www/
 \.000webhost(app)?\.com
