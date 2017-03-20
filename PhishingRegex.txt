@@ -1,3 +1,9 @@
+--------------------POTENTIAL LINKS TO HACKED WEBSITES-------------------
+
+/wp-admin/
+/wp-includes/
+/wp-content/(?!\S{0,60}Campaign\S{0,2}\=)(?!\S{0,60}\.pdf[<\"\t\r\n])(?!\S{0,60}\.jpg[<"\t\r\n])
+
 -------------------SUSPICIOUS PATTERNS-------------------
 
 blocked\ your?\ online
@@ -117,8 +123,3 @@ secure\ update
 temporar(il)?y\ deactivated
 verification\ required
 
---------------------POTENTIAL LINKS TO HACKED WEBSITES-------------------
-
-/wp-admin/
-/wp-includes/
-/wp-content/(?!\S{0,60}Campaign\S{0,2}\=)(?!\S{0,60}\.pdf[<\"\t\r\n])(?!\S{0,60}\.jpg[<"\t\r\n])
